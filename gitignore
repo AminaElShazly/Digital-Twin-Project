@@ -1,0 +1,15 @@
+# Secrets / local config
+.env
+*.pem
+credentials*
+.aws/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Raw data and unredacted screenshots (check before committing)
+data/
+*.zip
+.DS_Store
